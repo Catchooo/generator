@@ -10,3 +10,7 @@ def generate_password(length=12):
 
 
 password_length = int(input("Скільки символів має код?: "))
+
+
+generated_password = generate_password(password_length)
+print("Згенерований пароль::", generated_password)
