@@ -7,3 +7,6 @@ def generate_password(length=12):
     
     password = ''.join(secrets.choice(characters) for i in range(length))
     return password
+
+
+password_length = int(input("Скільки символів має код?: "))
